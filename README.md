@@ -2,7 +2,7 @@
 
 Submitted by: Anna Kuznetsova
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 ## User Stories
 
@@ -28,17 +28,18 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://g.recordit.co/7nwpU7LBxU.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [Recordit](https://recordit.co/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I ran into some issues with the keyboard not showing up in the simulator. I also had a little bit of a hard time with adding animations.
 
 ## Credits
 
 List an 3rd party libraries, icons, graphics, or other assets you used in your app.
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
+- [Calculator Image](https://www.kissclipart.com/calcular-png-clipart-calculator-computer-calculati-1384qj/)
 
 ## License
 
