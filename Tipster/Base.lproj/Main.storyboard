@@ -77,8 +77,6 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="onEdit:" destination="BYZ-38-t0r" eventType="editingChanged" id="aku-i2-llv"/>
-                                    <action selector="onEditingBegin:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="Bfg-Gg-6rh"/>
-                                    <action selector="onEditingEnd:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="kUY-Nu-Pcs"/>
                                 </connections>
                             </textField>
                         </subviews>

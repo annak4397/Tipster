@@ -47,9 +47,7 @@
     self.tipLabel.text = [NSString stringWithFormat:@"$%.2f",tip] ;
     self.totalLabel.text = [NSString stringWithFormat:@"$%.2f",total];
 }
-- (IBAction)onEditingBegin:(id)sender {
-}
-- (IBAction)onEditingEnd:(id)sender {
-}
+
+
 
 @end
