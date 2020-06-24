@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
 
 
+
 @end
 
 @implementation ViewController
@@ -34,7 +35,6 @@
 }
 
 - (IBAction)onEdit:(id)sender {
-    
     double bill = [self.billField.text doubleValue];
     
     NSArray *percentages = @[@(0.15), @(0.20), @(0.22)];
@@ -48,6 +48,18 @@
     self.totalLabel.text = [NSString stringWithFormat:@"$%.2f",total];
 }
 
+-(IBAction)onEditingDidBegin:(id)sender {
+    [UIView animateWithDuration:.25 animations:^{
+        self.tipLabel.alpha = 0;
+        self.totalLabel.alpha = 0;
+    }];
+}
 
+- (IBAction)onEditingDidEnd:(id)sender {
+    [UIView animateWithDuration:.25 animations:^{
+        self.tipLabel.alpha = 1;
+        self.totalLabel.alpha = 1;
+    }];
+}
 
 @end
